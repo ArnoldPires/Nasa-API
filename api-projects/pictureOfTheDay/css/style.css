@@ -20,8 +20,30 @@
 /******************************************
 /* LAYOUT
 /*******************************************/
+h1, .container {
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+h2 {
+  margin: 10px;
+}
+.container section {
+  display: flex;
+  padding: 1rem;
+}
+section div {
+  display: flex;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
 img {
   width: 40rem;
+  height: 26rem;
+}
+.pageFlip {
+  display: flex;
+  justify-content: space-evenly;
 }
 /******************************************
 /* ADDITIONAL STYLES
